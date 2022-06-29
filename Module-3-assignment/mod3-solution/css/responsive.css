@@ -1,0 +1,80 @@
+body {
+    background-color: yellowgreen;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: yellow;
+}
+
+.navbar-brand {
+    padding: 40px;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+.navbar-toggler {
+    border: 5px solid blue;
+}
+
+.navbar-collapse {
+    justify-content: right;
+}
+
+.navbar-nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-item:hover {
+    filter: brightness(70%);
+    transition: 1s all ease;
+}
+
+.nav-item:nth-child(1) {
+    background-color: rgb(185, 66, 66);
+}
+
+.nav-item:nth-child(2) {
+    background-color: rgb(139, 128, 128);
+}
+
+.nav-item:nth-child(3) {
+    background-color: rgb(255, 255, 255);
+}
+
+/*--- For Our menu heading ---*/
+#text {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/*--- As required to heighten the whole section to be longer as possible ---*/
+.row {
+    height: 1000px;
+}
+
+/*--- Additional, for moment of enjoyment ---*/
+img {
+    height: 380px;
+    padding: 0 60px;
+}
+
+p {
+    font-size: 25px;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+/*--- Allow the chicken image to be visible fully and to be properly fit the browser window at 500px ---*/
+@media (min-width: 500px) {
+    img {
+        width: 100%;
+    }
+}
