@@ -6,3 +6,4 @@
 # Modules:
 - Module-2-assignment: https://carson3377.github.io/Module-2-assignment/
 - Module-3-assignment: https://carson3377.github.io/Module-3-assignment/static%20restaurant.html
+- Module-4-assignment: https://carson3377.github.io/Module-4-assignment/
